@@ -44,9 +44,9 @@ console.log(f3.prototype);
 console.log("-----------prototype-----------");
 
 
-console.log('_____instanceof________');
+console.log('________instanceof________');
 
-console.log(obj0 instanceof f1);//true
+console.log(obj0 instanceof f1);//false
 console.log(obj0 instanceof f2);//false
 console.log(obj0 instanceof f3);//false
 console.log(obj0 instanceof Object);//true
@@ -59,14 +59,14 @@ console.log(obj1 instanceof Object);//true
 console.log("--------------obj1-------------");
 
 console.log(obj2 instanceof f1);//true
-console.log(obj2 instanceof f2);//false
+console.log(obj2 instanceof f2);//true
 console.log(obj2 instanceof f3);//false
 console.log(obj2 instanceof Object);//true
 console.log("--------------obj2-------------");
 
 console.log(obj3 instanceof f1);//true
-console.log(obj3 instanceof f2);//false
-console.log(obj3 instanceof f3);//false
+console.log(obj3 instanceof f2);//true
+console.log(obj3 instanceof f3);//true
 console.log(obj3 instanceof Object);//true
 console.log("--------------obj3-------------");
 
